@@ -1,11 +1,15 @@
+import React from "react"
+import HomePage from "./Pages/HomePage"
+
 
 
 function App() {
 
   return (
-
-      <p className="text-red-500 font-bold">hello </p>
-
+    <>
+     <HomePage/>
+  </>
+      
   )
 }
 
