@@ -2,12 +2,9 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        // <div className=''>
-        //     <h1>Hi, I'm Mir Arfan Uddin</h1>
-        //     <p>I'm a Student</p>
-        // </div>
-        <section className="hero flex justify-center items-center h-screen" >
-            <div className="container mx-auto px-4 py-16 text-center">
+      
+        <section className="hero flex justify-center items-center h-screen" style={{ height: '130vh' }} >
+            <div className="container mx-auto px-4 py-36 text-center mt-20 ">
                 <h1 className="text-6xl font-semibold  text-black">
                     Hi, I'm John Smith
                 </h1>
