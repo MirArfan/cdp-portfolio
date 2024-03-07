@@ -1,8 +1,9 @@
 import React from 'react'
 import NavBar from '../components/navComponent/navBar'
 import Hero from '../components/heroComponent/Hero'
-import AboutHeader from '../components/globalComponent/SectionHeader'
 import AboutSection from '../components/aboutComponent/AboutSection'
+import ExperienceCard from '../components/experienceComponent/ExperienceCard'
+import ExperienceSection from '../components/experienceComponent/ExperienceSection'
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
         <NavBar/>
         <Hero/>
         <AboutSection/>
+        <ExperienceSection/>
     </div>
   )
 }
