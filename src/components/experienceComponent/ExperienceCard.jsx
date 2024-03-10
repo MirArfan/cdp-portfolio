@@ -12,7 +12,8 @@ const ExperienceCard = (props) => {
 
         <div className={'flex mt-[50px] justify-between w-[70vw] ' + props.flexdir}>
             <ExperienceSummary aligndir={aligndir} />
-            <vr className="w-[1px] bg-gray-800 " />
+            {/* <hr className="w-1  h-full" /> */}
+            <div className="w-[1px] bg-gray-800" />
             <ExperienceDetails />
         </div>
 
