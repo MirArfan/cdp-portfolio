@@ -9,10 +9,10 @@ const NavList = () => {
                     <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-200 ">About</a>
                 </li>
                 <li>
-                    <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-200 ">Experience</a>
+                    <a href="#experience" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-200 ">Experience</a>
                 </li>
                 <li>
-                    <a href="#" className="block py-2 px-3 text-gray-900 rounded  hover:bg-gray-200 ">Project</a>
+                    <a href="#project" className="block py-2 px-3 text-gray-900 rounded  hover:bg-gray-200 ">Project</a>
                 </li>
                 <li>
                     <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-200 ">Contact</a>
