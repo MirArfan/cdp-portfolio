@@ -3,7 +3,7 @@ import github from '/src/assets/github.svg'
 import shareicon from '/src/assets/share.svg'
 const OtherDetails = (props) => {
   return (
-    <div className={'w-[70%] '}>
+    <div className={'w-[80%] '}>
         <h1 className={'text-2xl font-normal mb-2'}>Project Name</h1>
         <p className='text-sm font-normal'> Lorem ipsum dolor sit amet, consectetur  hjre anoph abc doloribus fuga? </p>
         <hr className="h-[1.5px] my-[12px] bg-gray-900"/>
