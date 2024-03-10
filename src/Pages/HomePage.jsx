@@ -6,6 +6,7 @@ import ExperienceCard from '../components/experienceComponent/ExperienceCard'
 import ExperienceSection from '../components/experienceComponent/ExperienceSection'
 import ProjectSection from '../components/projectsComponent/ProjectSection'
 import ContactSection from '../components/contactComponent/ContactSection'
+import FooterSection from '../components/footerComponent/FooterSection'
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
         <ExperienceSection/>
         <ProjectSection/>
         <ContactSection/>
+        <FooterSection/>
     </div>
   )
 }
