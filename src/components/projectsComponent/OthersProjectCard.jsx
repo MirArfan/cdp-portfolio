@@ -5,12 +5,20 @@ import OtherDetails from './OtherDetails';
 const OthersProjectCard = () => {
     
     return (
-        <div className='flex gap-4 w-[70%] justify-between'>
-            <div className={'flex mt-[50px]  w-[50%] gap-2.5 ' }>
+        <div className='flex gap-4 w-[100%] justify-center flex-row flex-wrap'>
+            <div className={'flex mt-[50px] max-w-full gap-2.5 ' }>
                 <OtherProjectPicture/>
                 <OtherDetails />
             </div>
-            <div className={'flex mt-[50px]  w-[50%] gap-2.5 ' }>
+            <div className={'flex mt-[50px] max-w-full gap-2.5 ' }>
+                <OtherProjectPicture/>
+                <OtherDetails />
+            </div>
+            <div className={'flex mt-[50px] max-w-full gap-2.5 ' }>
+                <OtherProjectPicture/>
+                <OtherDetails />
+            </div>
+            <div className={'flex mt-[50px] max-w-full gap-2.5 ' }>
                 <OtherProjectPicture/>
                 <OtherDetails />
             </div>
